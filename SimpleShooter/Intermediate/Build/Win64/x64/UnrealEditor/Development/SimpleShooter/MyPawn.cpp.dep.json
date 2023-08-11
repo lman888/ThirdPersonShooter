@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\udemy games i made\\shooterproject\\simpleshooter\\source\\simpleshooter\\mypawn.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\udemy games i made\\shooterproject\\simpleshooter\\intermediate\\build\\win64\\x64\\simpleshootereditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "f:\\udemy games i made\\shooterproject\\simpleshooter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpleshooter\\definitions.simpleshooter.h",
+            "f:\\udemy games i made\\shooterproject\\simpleshooter\\source\\simpleshooter\\mypawn.h",
+            "f:\\udemy games i made\\shooterproject\\simpleshooter\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleshooter\\uht\\mypawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,35 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SimpleShooter-0001.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\SimpleShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\BTService_playerLocation.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\BTService_PlayerLocationIfSeen.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\BTTask_ClearBlackBoardValue.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\BTTask_Shoot.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\KillThemAllGameMode.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\MasterGun.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\MyCharacter.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\MyPawn.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\MyPlayerController.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\ShooterAIController.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\ShooterGameMode.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\SimpleShooter.init.gen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\BTService_playerLocation.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\BTService_PlayerLocationIfSeen.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\BTTask_ClearBlackBoardValue.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\BTTask_Shoot.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\KillThemAllGameMode.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\MasterGun.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\MyCharacter.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\MyPawn.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\MyPlayerController.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\ShooterAIController.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\ShooterGameMode.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\SimpleShooter.cpp.obj"
+"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\Default.rc2.res"
+/OUT:"F:\Udemy Games I made\ShooterProject\SimpleShooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\SimpleShooter\UnrealEditor-SimpleShooter-0001.lib"

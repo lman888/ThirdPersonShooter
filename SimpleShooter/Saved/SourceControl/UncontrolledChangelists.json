@@ -1,0 +1,49 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/CollectionMaps/Map1.umap",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/Maps/Sandbox.umap",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/GameModes/BP_ShooterLevel.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/GameModes/ShooterLevel.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Characters/BP_PlayerCharacter.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Characters/BP_PlayerPawn.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/ModularSci_Comm/Meshes/SM_Stairs_A1.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Animation/ABP_ShooterCharacterAnim.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Animation/BS_Locomotion.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Guns/BP_Rifle.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Meshes/Wraith_Skeleton.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/Meshes/Wraith_ShadowCyl.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/BP_MyShooterAIController.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/AI/BP_MyShooterAIController.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Characters/BP_AIChar.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/AI/BT_EnemyAI.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/AI/BB_EnemyAI.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/AI/BT_Chase.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/AI/BT_Investigate.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Characters/BP_ShooterPlayerController.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/UI/WBP_LoseScreen.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/UI/WBP_WinScreen.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/SFX/A_RifleShot_Cue.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/SFX/A_Impact_Cue.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/SFX/ATT_Default.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/UI/WBP_HUD.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Characters/BP_AICharacter.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Characters/BP_Character.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Characters/BP_Player.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Characters/BP_PlayerController.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Characters/BP_AICharacter.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/AI/BT_Patrol.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Guns/Rifle.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/PlayerCharacter.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/PlayerPawn.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/Maps/Map1.umap",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Characters/PlayerCharacter.uasset",
+				"C:/Users/liamw/OneDrive/Documents/Udemy/ShooterProject/SimpleShooter/Content/BluePrints/Characters/PlayerPawn.uasset"
+			]
+		}
+	]
+}
