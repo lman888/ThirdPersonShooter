@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"F:\\Udemy Games I made\\ShooterProject\\SimpleShooter\\Source\\SimpleShooter\\SimpleShooter.Build.cs",
-		"F:\\Udemy Games I made\\ShooterProject\\SimpleShooter\\Source\\SimpleShooter.Target.cs",
-		"F:\\Udemy Games I made\\ShooterProject\\SimpleShooter\\Source\\SimpleShooterEditor.Target.cs"
-	],
-	"EngineVersion": "5.2.1"
-}
