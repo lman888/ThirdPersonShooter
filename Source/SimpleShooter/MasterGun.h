@@ -40,8 +40,11 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Sound Effect")
 	USoundBase* impactSound;
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta	= (AllowPrivateAccess = "true"))
 	USceneComponent* root;
+
+	UPROPERTY(EditAnywhere)
+	USceneComponent* projSpawnPoint;
 
 	UPROPERTY(VisibleAnywhere)
 	USkeletalMeshComponent* skeletalComponent;

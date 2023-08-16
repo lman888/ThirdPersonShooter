@@ -4,18 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "MasterGun.h"
-#include "AssaultRifle.generated.h"
+#include "RocketLauncher.generated.h"
 
-/**
- * 
- */
+class ARocketProjectile;
+class USceneComponent;
+
 UCLASS()
-class SIMPLESHOOTER_API AAssaultRifle : public AMasterGun
+class SIMPLESHOOTER_API ARocketLauncher : public AMasterGun
 {
 	GENERATED_BODY()
 
 public:
-	AAssaultRifle();
+	ARocketLauncher();
 
 	void BeginPlay() override;
 
@@ -25,13 +25,16 @@ protected:
 
 	void Tick(float DeltaTime) override;
 
-	bool GunTrace(FHitResult& aHit, FVector& aShotDirection);
+	void LaunchProjectile();
 
 private:
 
 	UPROPERTY(EditAnywhere, Category = "Setup", meta = (AllowPrivateAccess = "true"))
-	float maxRange = 1000.0f;
+	TSubclassOf<ARocketProjectile> projectile;
 
 	UPROPERTY(EditAnywhere, Category = "Setup", meta = (AllowPrivateAccess = "true"))
-	float gunDamage = 25.0f;
+	float maxRange = 2000;
+
+	UPROPERTY(EditAnywhere, Category = "Setup", meta = (AllowPrivateAccess = "true"))
+	float gunDamage = 60.0f;
 };

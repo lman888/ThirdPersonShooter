@@ -20,6 +20,9 @@ AMasterGun::AMasterGun()
 
 	skeletalComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeletal Component"));
 	skeletalComponent->SetupAttachment(root);
+
+	projSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawn Point"));
+	projSpawnPoint->SetupAttachment(skeletalComponent);
 }
 
 void AMasterGun::PullTrigger()
