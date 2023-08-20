@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "MyCharacter.generated.h"
 
+DECLARE_DELEGATE_OneParam(FSwapWeaponDelegate, int32);
+
 class AMasterGun;
 
 UCLASS()
@@ -40,6 +42,12 @@ public:
 
 private:
 
+	FSwapWeaponDelegate swapWeaponDelegate;
+
+	void CallWeaponSwapOneDelegate(FKey aKeyPressed);
+
+	void SwapWeapons(int aWeaponChoice);
+
 	void MoveForwardAndBack(float aAxisValue);
 
 	void MoveLeftAndRight(float aAxisValue);
@@ -48,17 +56,17 @@ private:
 
 	void LookLeftAndRightRate(float aAxisValue);
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Setup", meta = (AllowPrivateAccess))
 	float rotationRate = 10;
 
 	UPROPERTY(VisibleAnywhere)
 	float currentHealth;
 
-	UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditDefaultsOnly, Category = "Setup", meta = (AllowPrivateAccess))
 	float maxHealth = 100;
 
-	UPROPERTY(EditDefaultsOnly)
-	TSubclassOf<AMasterGun>gunClass;
+	UPROPERTY(EditDefaultsOnly, Category = "Setup", meta = (AllowPrivateAccess))
+	TArray<TSubclassOf<AMasterGun>>gunClass;
 
 	UPROPERTY()
 	AMasterGun* gun;

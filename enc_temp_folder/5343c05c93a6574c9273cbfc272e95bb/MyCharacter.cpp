@@ -126,39 +126,29 @@ void AMyCharacter::CallWeaponSwapOneDelegate(FKey aKeyPressed)
 
 void AMyCharacter::SwapWeapons(int aWeaponChoice)
 {
-	//Detaches the gun from the actor
-	if (gun != nullptr)
-	{
-		gun->DetachFromActor(FDetachmentTransformRules::KeepRelativeTransform);
-		gun->SetActorHiddenInGame(true);
-	}
-
-	//New weapon selection and detaches old Mesh for new weapon mesh
 	if (aWeaponChoice == 1)
 	{
 		UE_LOG(LogTemp, Display, TEXT("Weapon 1"));
-		if (gunClass.IsValidIndex(0))
+		if (gunClass[0] != nullptr)
 		{
 			gun = GetWorld()->SpawnActor<AMasterGun>(gunClass[0]);
 
+			GetMesh()->HideBoneByName(TEXT("weapon_r"), EPhysBodyOp::PBO_None);
 			gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("weaponsocket_r"));
 			gun->SetOwner(this);
-
-			UE_LOG(LogTemp, Display, TEXT("Swapped to weapon: %s"), *gun->GetName());
 		}
 		
 	}
-	
-	if (aWeaponChoice == 2)
+	else if (aWeaponChoice == 2)
 	{
 		UE_LOG(LogTemp, Display, TEXT("Weapon 2"));
-		if (gunClass.IsValidIndex(1))
+		if (gunClass[1] != nullptr)
 		{
 			gun = GetWorld()->SpawnActor<AMasterGun>(gunClass[1]);
 
+			GetMesh()->HideBoneByName(TEXT("weapon_r"), EPhysBodyOp::PBO_None);
 			gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("weaponsocket_r"));
 			gun->SetOwner(this);
-			UE_LOG(LogTemp, Display, TEXT("Swapped to weapon: %s"), *gun->GetName());
 		}
 	}
 }
