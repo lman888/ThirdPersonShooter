@@ -29,6 +29,10 @@ void AMasterGun::PullTrigger()
 {
 }
 
+void AMasterGun::ReleaseTrigger()
+{
+}
+
 // Called when the game starts or when spawned
 void AMasterGun::BeginPlay()
 {

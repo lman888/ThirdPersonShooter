@@ -40,6 +40,8 @@ public:
 
 	void PullTrigger();
 
+	void ReleaseTrigger();
+
 private:
 
 	FSwapWeaponDelegate swapWeaponDelegate;

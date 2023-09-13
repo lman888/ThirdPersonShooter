@@ -62,6 +62,8 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 	PlayerInputComponent->BindAction(TEXT("PullTrigger"), IE_Pressed, this, &AMyCharacter::PullTrigger);
 
+	PlayerInputComponent->BindAction(TEXT("PullTrigger"), IE_Released, this, &AMyCharacter::ReleaseTrigger);
+
 	swapWeaponDelegate.BindLambda([&](int weaponIndex) 
 	{
 		SwapWeapons(weaponIndex);
@@ -146,7 +148,6 @@ void AMyCharacter::SwapWeapons(int aWeaponChoice)
 
 			UE_LOG(LogTemp, Display, TEXT("Swapped to weapon: %s"), *gun->GetName());
 		}
-		
 	}
 	
 	if (aWeaponChoice == 2)
@@ -188,4 +189,9 @@ void AMyCharacter::LookLeftAndRightRate(float aAxisValue)
 void AMyCharacter::PullTrigger()
 {
 	gun->PullTrigger();
+}
+
+void AMyCharacter::ReleaseTrigger()
+{
+	gun->ReleaseTrigger();
 }

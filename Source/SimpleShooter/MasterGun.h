@@ -22,6 +22,8 @@ public:
 
 	virtual void PullTrigger();
 
+	virtual void ReleaseTrigger();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
